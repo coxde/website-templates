@@ -1,3 +1,68 @@
+/**************/
+/* NAVIGATION */
+/**************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebfbee;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.logo {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.logo-green {
+    color: #2b8a3e;
+}
+
+.logo-cloud {
+    color: #0d2913;
+}
+
+.nav-list {
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list-item:link,
+.nav-list-item:visited {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #0d2913;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.nav-list-item:hover,
+.nav-list-item:active {
+    color: #2b8a3e;
+}
+
+.nav-list-item.nav-cta:link,
+.nav-list-item.nav-cta:visited {
+    font-weight: 600;
+    padding: 1.2rem 1.6rem;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #2b8a3e;
+}
+
+.nav-list-item.nav-cta:hover,
+.nav-list-item.nav-cta:active {
+    background-color: #226e32;
+}
+
 /****************/
 /* HERO SECTION */
 /****************/
@@ -31,6 +96,7 @@
 .hero-description {
     font-size: 2rem;
     line-height: 1.6;
+    color: #1a5325;
     margin-bottom: 4.8rem;
 }
 
