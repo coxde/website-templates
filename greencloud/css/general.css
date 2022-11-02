@@ -37,6 +37,7 @@ Paragraph default: 1.6
 --- 06 BORDER-RADIUS
 
 Default: 50px
+Small: 25px
 
 --- 07 WHITESPACE
 
@@ -102,10 +103,6 @@ body {
     align-items: center;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -150,7 +147,6 @@ body {
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
-    text-align: center;
     padding: 1.6rem 2.4rem;
     border-radius: 50px;
 
@@ -182,4 +178,20 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
     background-color: #d5e8d8;
+}
+
+/***************************/
+/* HELPER/SETTINGS CLASSES */
+/***************************/
+
+.text-center {
+    text-align: center;
+}
+
+.text-green {
+    color: #2b8a3e;
+}
+
+.text-green-dark {
+    color: #0d2913;
 }
