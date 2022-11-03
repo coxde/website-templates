@@ -122,7 +122,7 @@ body {
 .heading-secondary {
     font-size: 3.6rem;
     line-height: 1.2;
-    margin-bottom: 9.6rem;
+    margin-bottom: 8rem;
 }
 
 .heading-tertiary {
@@ -197,4 +197,38 @@ body {
 
 .text-green-dark {
     color: #0d2913;
+}
+
+.text-highlight {
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.text-highlight::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 4px);
+    border-radius: 8px;
+    background-color: #2b8a3e;
+    z-index: -1;
+}
+
+.transform--1::before {
+    transform: rotate(1deg) translateX(-2px);
+}
+
+.transform---1::before {
+    transform: rotate(-1deg) translateX(-2px);
+}
+
+.transform---2::before {
+    transform: rotate(-2deg) translateX(-2px);
+}
+
+.transform--2::before {
+    transform: rotate(2deg) translateX(-2px);
 }
