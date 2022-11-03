@@ -75,8 +75,8 @@ body {
 
 .grid {
     display: grid;
-    column-gap: 6.4rem;
-    row-gap: 9.6rem;
+    column-gap: 8rem;
+    row-gap: 12.8rem;
 }
 
 .grid:not(:last-child) {
@@ -131,6 +131,7 @@ body {
 
 .subheading {
     display: block;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
     color: #2b8a3e;

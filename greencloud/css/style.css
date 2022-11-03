@@ -111,12 +111,12 @@
 /********************/
 
 .section-customer {
-    padding: 6.4rem 0 3.2rem 0;
+    padding: 4.8rem 0 3.2rem 0;
 }
 
 .heading-customer {
     font-family: 'Comfortaa', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 0.75px;
     font-weight: 700;
@@ -141,7 +141,7 @@
     grid-template-columns: repeat(4, 1fr);
     row-gap: 1.2rem;
     max-width: 75rem;
-    margin: 4.8rem auto 0 auto;
+    margin: 8rem auto 0 auto;
     padding: 3.2rem 1.6rem;
     border-radius: 25px;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
@@ -165,4 +165,36 @@
 .data-text {
     font-size: 1.2rem;
     text-transform: uppercase;
+}
+
+/*******************/
+/* FEATURE SECTION */
+/*******************/
+
+.section-features {
+    padding: 9.6rem 0;
+}
+
+.feature-text-box:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.feature-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    color: #2b8a3e;
+    background-color: #ebfbee;
+    padding: 1.6rem;
+    border-radius: 50%;
+    margin-bottom: 1.6rem;
+}
+
+.feature-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.feature-img {
+    width: 100%;
 }
