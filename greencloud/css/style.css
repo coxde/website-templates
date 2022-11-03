@@ -219,7 +219,13 @@
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
+    transition: all 0.5s;
     z-index: 1;
+}
+
+.testimonial-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
 }
 
 .testimonial-avatar-box {
