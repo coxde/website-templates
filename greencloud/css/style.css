@@ -40,18 +40,10 @@
     color: #2b8a3e;
 }
 
-.nav-list-item.nav-cta:link,
-.nav-list-item.nav-cta:visited {
+.nav-list-item.btn--small:link,
+.nav-list-item.btn--small:visited {
     font-weight: 600;
-    padding: 1.2rem 1.6rem;
-    border-radius: 50px;
     color: #fff;
-    background-color: #2b8a3e;
-}
-
-.nav-list-item.nav-cta:hover,
-.nav-list-item.nav-cta:active {
-    background-color: #226e32;
 }
 
 /****************/
@@ -140,14 +132,15 @@
     max-width: 75rem;
     margin: 8rem auto 0 auto;
     padding: 3.2rem 1.6rem;
+    border: 3.5px solid #2b8a3e;
     border-radius: 25px;
-    box-shadow: 0 2.4rem 4.8rem rgba(13, 41, 19, 0.08);
+    box-shadow: 0 2.4rem 4.8rem rgba(13, 41, 19, 0.1);
     transition: all 0.5s;
 }
 
 .customer-data:hover {
     transform: scale(1.05);
-    box-shadow: 0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
+    box-shadow: 0 3.2em 6.4rem rgba(13, 41, 19, 0.05);
 }
 
 .data-number,
@@ -170,6 +163,11 @@
 
 .section-features {
     padding: 9.6rem 0;
+}
+
+.feature-grid {
+    column-gap: 8rem;
+    row-gap: 12.8rem;
 }
 
 .feature-text-box:nth-child(3) {
@@ -207,7 +205,6 @@
 }
 
 .testimonial-grid {
-    display: grid;
     gap: 4.8rem;
 }
 
@@ -220,7 +217,6 @@
     border-radius: 25px;
     box-shadow: 0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
     transition: all 0.5s;
-    z-index: 1;
 }
 
 .testimonial-box:hover {
@@ -278,4 +274,100 @@
     width: 6.4rem;
     border-radius: 50%;
     border: 4px solid #2b8a3e;
+}
+
+/****************/
+/* PLAN SECTION */
+/****************/
+
+.section-plans {
+    padding: 9.6rem 0;
+}
+
+.plan-grid {
+    column-gap: 2.4rem;
+}
+
+.plan-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
+    transition: all 0.5s;
+}
+
+.plan-box:hover {
+    transform: translateY(-1.6rem);
+    box-shadow: 0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
+}
+
+.plan-popular {
+    box-shadow: 0 2.4rem 4.8rem rgba(13, 41, 19, 0.15);
+}
+
+.plan-popular:hover {
+    transform: translateY(-3.2rem);
+}
+
+.plan-popular {
+    border: 4px solid #2b8a3e;
+}
+
+.plan-header {
+    text-align: center;
+}
+
+.plan-name {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #2b8a3e;
+    margin-bottom: 3rem;
+}
+
+.plan-price {
+    font-size: 4.4rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+.plan-price span {
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+}
+
+.plan-text {
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.plan-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    list-style: none;
+}
+
+.plan-list-item {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.list-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #2b8a3e;
+}
+
+.plan-details {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
 }

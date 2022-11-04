@@ -32,8 +32,10 @@ Paragraph default: 1.6
 
 --- 05 SHADOWS
 
-0 2.4rem 4.8rem rgba(13, 41, 19, 0.08);
+0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
 0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
+0 2.4rem 4.8rem rgba(13, 41, 19, 0.1);
+0 3.2em 6.4rem rgba(13, 41, 19, 0.05);
 
 --- 06 BORDER-RADIUS
 
@@ -76,8 +78,6 @@ body {
 
 .grid {
     display: grid;
-    column-gap: 8rem;
-    row-gap: 12.8rem;
 }
 
 .grid:not(:last-child) {
@@ -181,6 +181,20 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
     background-color: #d5e8d8;
+}
+
+.btn--small:link,
+.btn--small:visited {
+    font-weight: 600;
+    padding: 1.2rem 1.8rem;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #2b8a3e;
+}
+
+.btn--small:hover,
+.btn--small:active {
+    background-color: #226e32;
 }
 
 /***************************/
