@@ -31,7 +31,7 @@
         <header class="header">
             <a class="logo" href="#"
                 ><span class="text-green">Green</span
-                ><span class="text-green-dark">cloud</span></a
+                ><span class="text-green-darker">cloud</span></a
             >
 
             <nav class="navigation">
@@ -61,11 +61,13 @@
                     </div>
 
                     <div class="hero-text-box">
-                        <h1 class="heading-primary text-center">
+                        <h1
+                            class="heading-primary text-green-darker text-center"
+                        >
                             Cloud are not only servers, but also about the earth
                             🌍
                         </h1>
-                        <p class="hero-description text-center">
+                        <p class="hero-description text-green-dark text-center">
                             Sustainability, server security and data privacy are
                             fundamental pillars of who we are.
                         </p>
@@ -252,7 +254,7 @@
             <section class="section-testimonials">
                 <div class="container">
                     <span class="subheading">Testimonials</span>
-                    <h2 class="heading-secondary text-green-dark">
+                    <h2 class="heading-secondary text-green-darker">
                         Don't just take our words
                     </h2>
                 </div>
@@ -394,7 +396,7 @@
             <section class="section-plans">
                 <div class="container">
                     <span class="subheading">Plans</span>
-                    <h2 class="heading-secondary text-green-dark">
+                    <h2 class="heading-secondary text-green-darker">
                         Hourly billing, pay as you go!
                     </h2>
                 </div>
@@ -456,7 +458,7 @@
                         </ul>
                         <div class="plan-sign-up">
                             <a href="#" class="btn btn--small text-center"
-                                >Get Started</a
+                                >Get started</a
                             >
                         </div>
                     </div>
@@ -515,7 +517,7 @@
                         </ul>
                         <div class="plan-sign-up">
                             <a href="#" class="btn btn--small text-center"
-                                >Get Started</a
+                                >Get started</a
                             >
                         </div>
                     </div>
@@ -574,7 +576,7 @@
                         </ul>
                         <div class="plan-sign-up">
                             <a href="#" class="btn btn--small text-center"
-                                >Get Started</a
+                                >Get started</a
                             >
                         </div>
                     </div>
@@ -646,7 +648,44 @@
                 </div>
             </section>
 
-            <section class="section-cta"></section>
+            <section class="section-cta">
+                <div class="container">
+                    <div class="cta">
+                        <div class="cta-text-box">
+                            <h2 class="heading-secondary text-green-darker">
+                                Have more questions?
+                            </h2>
+                            <p class="cta-text text-green-dark">
+                                Leave your email and talk to us! We are happy to
+                                help your business with our 100% sustainable
+                                cloud platform.
+                            </p>
+                            <form class="cta-form" action="#">
+                                <input
+                                    id="email"
+                                    type="email"
+                                    placeholder="youremail@example.com"
+                                    required
+                                />
+
+                                <button class="btn btn--form text-center">
+                                    Sign up
+                                </button>
+                            </form>
+                        </div>
+
+                        <picture class="cta-img-box">
+                            <source srcset="img/cta.webp" type="image/webp" />
+                            <source srcset="img/cta.jpg" type="image/png" />
+                            <img
+                                class="cta-img"
+                                src="img/cta.jpg"
+                                alt="A server room with lots of hardware"
+                            />
+                        </picture>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer class="footer"></footer>
