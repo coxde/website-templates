@@ -81,7 +81,7 @@ body {
 }
 
 .grid:not(:last-child) {
-    margin-bottom: 9.6rem;
+    margin-bottom: 8rem;
 }
 
 .grid--2-cols {
