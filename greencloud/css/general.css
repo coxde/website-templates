@@ -221,6 +221,7 @@ body {
 }
 
 .text-highlight {
+    display: inline-block;
     font-weight: 600;
     color: #fff;
     position: relative;
