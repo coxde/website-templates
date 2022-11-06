@@ -32,11 +32,12 @@ Paragraph default: 1.6
 
 --- 05 SHADOWS
 
-0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
-0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
-0 2.4rem 4.8rem rgba(13, 41, 19, 0.1);
-0 3.2em 6.4rem rgba(13, 41, 19, 0.05);
 0 3.2em 6.4rem rgba(13, 41, 19, 0.1);
+0 2.4rem 4.8rem rgba(13, 41, 19, 0.1);
+0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
+0 3.2em 6.4rem rgba(13, 41, 19, 0.05);
+0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
+0 0.8rem 1.6rem rgba(13, 41, 19, 0.03);
 
 --- 06 BORDER-RADIUS
 
@@ -70,7 +71,7 @@ body {
 
     /* Fix overflow-x:hidden still can scroll */
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /*******************************/
