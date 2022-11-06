@@ -58,6 +58,7 @@ Small: 25px
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -66,6 +67,10 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+
+    /* Fix overflow-x:hidden still can scroll */
+    position: relative;
+    overflow-x: hidden;
 }
 
 /*******************************/
@@ -90,16 +95,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid--3-cols {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-    grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
