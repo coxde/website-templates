@@ -2,6 +2,8 @@
 
 A repository for personal website templates
 
+-   [DigitalCraft (WIP)](https://coxde.github.io/website-templates/digitalcraft/index.html)
+
 -   [Greencloud](https://coxde.github.io/website-templates/greencloud/index.html)
 
 ![Greencloud Screenshot](https://github.com/coxde/website-templates/assets/63153334/7da06d28-a515-426d-85ec-c09937208310)
