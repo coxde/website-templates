@@ -1,0 +1,88 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights:
+Default: 1
+Small: 1.05
+Medium: 1.2
+Large: 1.8
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #1864ab
+- Tints: #e7f5ff #a3c1dd
+- Shades: #114678 #0a2844 #020a11
+- Accents:
+- Greys: #888 #767676 #6f6f6f #555 #333
+
+--- 05 SHADOWS
+
+0 3.2em 6.4rem rgba(13, 41, 19, 0.1);
+0 2.4rem 4.8rem rgba(13, 41, 19, 0.1);
+0 0.8rem 1.6rem rgba(13, 41, 19, 0.08);
+0 3.2em 6.4rem rgba(13, 41, 19, 0.05);
+0 3.2em 6.4rem rgba(13, 41, 19, 0.04);
+0 0.8rem 1.6rem rgba(13, 41, 19, 0.03);
+
+--- 06 BORDER-RADIUS
+
+Default: 50px
+Small: 25px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* CSS resets */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Make 1rem = 10px */
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+
+    /* Fix overflow-x: hidden still can scroll */
+    position: relative;
+    overflow-x: hidden;
+}
+
+/*******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*******************************/
+
+h1 {
+    color: #1864ab;
+    font-size: 3rem;
+}
