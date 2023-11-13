@@ -67,6 +67,7 @@
 
 /* STICKY NAVIGATION */
 .sticky .header {
+    display: flex;
     position: fixed;
     top: 0;
     bottom: 0;
