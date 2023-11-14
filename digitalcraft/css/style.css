@@ -82,9 +82,9 @@
     width: 90%;
     border-radius: 25px;
     background-color: rgba(231, 245, 255, 0.8);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 0 0.8rem 1.6rem rgba(2, 10, 17, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0.8rem 1.6rem rgba(2, 10, 17, 0.06);
 }
 
 /* Fix sticky nav spacing bug */
