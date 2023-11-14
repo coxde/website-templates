@@ -47,7 +47,7 @@ Small: 25px
 --- 07 WHITESPACE
 
 - Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 144
 
 --- 08 NAMING RULE
 
@@ -97,16 +97,22 @@ body {
     display: grid;
 }
 
-.grid:not(:last-child) {
-    margin-bottom: 8rem;
+.grid:not(:first-child) {
+    margin-top: 8rem;
 }
 
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
 }
 
 .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+.grid--center-h {
+    justify-items: center;
 }
 
 .grid--center-v {
@@ -147,7 +153,7 @@ body {
     font-weight: 500;
     color: #1864ab;
     text-transform: uppercase;
-    margin-bottom: 1.6rem;
+    margin-bottom: 2.4rem;
     letter-spacing: 0.75px;
 }
 
