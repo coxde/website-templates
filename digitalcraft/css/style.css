@@ -87,6 +87,10 @@
     box-shadow: 0 0.8rem 1.6rem rgba(2, 10, 17, 0.03);
 }
 
+/* Fix sticky nav spacing bug */
+.sticky .section-hero {
+    margin-top: 8rem;
+}
 /****************/
 /* HERO SECTION */
 /****************/
