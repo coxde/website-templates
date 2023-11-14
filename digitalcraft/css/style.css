@@ -148,7 +148,7 @@
 /********************/
 
 .section-features {
-    padding: 14.4rem 0;
+    padding: 12.8rem 0;
 }
 
 .feature__heading {
@@ -196,7 +196,7 @@
 /************************/
 
 .section-testimonials {
-    padding: 9.6rem 0;
+    padding: 12.8rem 0;
     background-color: #e7f5ff;
     overflow: hidden;
 }
@@ -275,15 +275,70 @@
     border: 4px solid #a3c1dd;
 }
 
+/*****************/
+/* BLOGS SECTION */
+/*****************/
+
+.section-blogs {
+    padding: 12.8rem 0;
+    overflow: hidden;
+}
+
+.blog__grid {
+    gap: 4.8rem;
+}
+
+.blog__box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2.4rem 4.8rem rgba(2, 10, 17, 0.1);
+    transition: all 0.5s;
+}
+
+.blog__box:hover {
+    transform: translateY(-1.6rem);
+}
+
+.blog__img {
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+.blog__info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 4.8rem 3.2rem 1.2rem 3.2rem;
+    gap: 1.6rem;
+    align-items: center;
+}
+.blog__meta {
+    display: flex;
+    gap: 1.6rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+}
+
+.blog__meta-author,
+.blog__meta-date {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.blog__title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /***************/
 /* CTA SECTION */
 /***************/
 
 .section-cta {
-    /* top right bottom left */
-    /* padding: 9.6rem 0 12.8rem 0; */
-
-    /* top horizontal bottom */
     padding: 4.8rem 0 12.8rem;
 }
 

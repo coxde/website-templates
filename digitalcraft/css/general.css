@@ -41,8 +41,9 @@ Paragraph default: 1.6
 
 --- 06 BORDER-RADIUS
 
-Default: 50px
-Small: 25px
+Large: 50px
+Medium: 25px
+Small: 9px
 
 --- 07 WHITESPACE
 
@@ -104,6 +105,11 @@ body {
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.4rem;
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
 }
 
 .grid--4-cols {
