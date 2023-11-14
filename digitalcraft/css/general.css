@@ -212,6 +212,19 @@ body {
     background-color: #114678;
 }
 
+.btn--dark {
+    background-color: #0a2844;
+    color: #e7f5ff;
+    align-self: end;
+    padding: 1.2rem;
+    border-radius: 9px;
+}
+
+.btn--dark:hover {
+    background-color: #fff;
+    color: #555;
+}
+
 *:focus {
     outline: none;
     box-shadow: 0 0 0 0.4rem #a3c1dd;
