@@ -99,7 +99,7 @@
     position: relative;
     /* Remove nav height */
     min-height: calc(100vh - 8rem);
-    padding-top: 3.6rem;
+    padding-top: 4.8rem;
 }
 
 .hero {
@@ -112,7 +112,7 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    padding: 12rem 18rem;
+    padding: 9.6rem;
     border-radius: 25px;
     box-shadow: 0 2.4rem 4.8rem rgba(2, 10, 17, 0.1);
     background-color: rgba(231, 245, 255, 0.5);
