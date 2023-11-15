@@ -3,9 +3,369 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Service</title>
+        <meta
+            name="description"
+            content="At DigitalCraft Studio, we go beyond conventional web design and development. We are a team of passionate creators dedicated to crafting digital excellence. Elevate your online presence with our innovative designs, cutting-edge technology, and a commitment to precision. Join us on a journey where your ideas meet exceptional craftsmanship, and together, we'll craft a digital masterpiece tailored to your vision. Welcome to the intersection of creativity and technology – where your success is our masterpiece."
+        />
+
+        <link rel="stylesheet" href="../css/general.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/queries.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Titillium+Web:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Service - DigitalCraft Studio</title>
     </head>
     <body>
-        <h1>Service</h1>
+        <header class="header">
+            <div class="header--blank"></div>
+            <div class="header--container">
+                <div class="logo">
+                    <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                    <img
+                        class="logo__img"
+                        src="../img/logo.png"
+                        width="48px"
+                        height="48px"
+                        alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                    />
+                    <a class="logo__text" href="../index.html">DigitalCraft</a>
+                </div>
+
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="nav-list__item" href="../index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="#">Service</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="./blog.html"
+                                >Blog</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="./about.html"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="nav-list__item btn--small text--center"
+                                href="./quote.html"
+                                >Get a quote</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header--blank"></div>
+        </header>
+
+        <main>
+            <section class="section-service-title">
+                <div class="container grid grid--center-h text--center">
+                    <span class="subheading">Service</span>
+                    <h2 class="heading--secondary service__heading">
+                        Our Comprehensive Services
+                    </h2>
+                    <aside class="service__description">
+                        From cutting-edge web development to captivating UI/UX
+                        design, striking graphics design, and strategic digital
+                        marketing, we're your one-stop destination for a
+                        thriving online presence.
+                    </aside>
+                    <a class="feature__click" href="#service-table"
+                        >Learn more &gt;&gt;</a
+                    >
+                </div>
+            </section>
+
+            <section class="section-service-table" id="service-table">
+                <div class="container grid grid--center-h">
+                    <table class="service__table">
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Description</th>
+                                <th>Key Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Web Development</td>
+                                <td>
+                                    Craft robust and scalable websites tailored
+                                    to your unique needs. Our development team
+                                    utilizes the latest technologies.
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Top-tier digital solutions</li>
+                                        <li>Responsive and scalable design</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>UI/UX Design</td>
+                                <td>
+                                    Elevate user experiences through intuitive
+                                    interfaces and visually appealing designs.
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>
+                                            Intuitive and user-friendly
+                                            interfaces
+                                        </li>
+                                        <li>Captivating aesthetics</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Graphics Design</td>
+                                <td>
+                                    Transform ideas into stunning visuals,
+                                    covering everything from logos to
+                                    promotional materials.
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>
+                                            Cohesive and impactful brand
+                                            identity
+                                        </li>
+                                        <li>Creative visual concepts</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Digital Marketing</td>
+                                <td>
+                                    Boost your online presence with strategic
+                                    digital marketing, from SEO and social media
+                                    to targeted campaigns.
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Enhanced brand visibility</li>
+                                        <li>
+                                            Data-driven marketing strategies
+                                        </li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="section-cta">
+                <div class="container">
+                    <div class="cta">
+                        <div class="cta__text-box text--blue-darker">
+                            <h2 class="heading--secondary">
+                                Free First Hour Consultation!
+                            </h2>
+                            <p class="cta__text">
+                                Unlock the potential of your digital journey
+                                with us. Get a quote and schedule your
+                                consultation and let's turn your vision into
+                                reality together.
+                            </p>
+
+                            <form class="cta__form" action="#">
+                                <div>
+                                    <label for="full-name">Full Name</label>
+                                    <input
+                                        id="full-name"
+                                        type="text"
+                                        placeholder="John Smith"
+                                        required
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="email">Email address</label>
+                                    <input
+                                        id="email"
+                                        type="email"
+                                        placeholder="me@example.com"
+                                        required
+                                    />
+                                </div>
+
+                                <a
+                                    class="btn btn--outline text--center"
+                                    href="./quote.html"
+                                >
+                                    Get a quote
+                                </a>
+
+                                <button class="btn btn--dark">
+                                    Contact us
+                                </button>
+                            </form>
+                        </div>
+
+                        <div
+                            class="cta__img-box"
+                            role="img"
+                            aria-label="A table topped with different color samples and a Mac"
+                        ></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container grid grid--footer">
+                <div class="logo-col">
+                    <div class="logo">
+                        <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                        <img
+                            class="logo__img"
+                            src="../img/logo.png"
+                            width="32px"
+                            height="32px"
+                            alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                        />
+                        <a class="logo__text" href="../index.html"
+                            >DigitalCraft</a
+                        >
+                    </div>
+
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer__link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-linkedin"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-facebook"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-github"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright">
+                        Copyright &copy; <span class="year">2027</span> by
+                        DigitalCraft Studio. All rights reserved.
+                    </p>
+                </div>
+
+                <div class="address-col">
+                    <p class="footer__heading">Contact Us</p>
+                    <address class="contacts">
+                        <p class="address">
+                            4 Westmoreland St, Temple Bar, Dublin, D02 W951
+                        </p>
+                        <p>
+                            <a class="footer__link" href="tel:016-708-212"
+                                >016-708-212</a
+                            ><br />
+                            <a
+                                class="footer__link"
+                                href="mailto:hello@digitalcraft.studio"
+                                >hello@digitalcraft.studio
+                            </a>
+                        </p>
+                    </address>
+                </div>
+
+                <nav class="nav-col">
+                    <p class="footer__heading">Services</p>
+                    <ul class="footer__nav">
+                        <li>
+                            <a class="footer__link" href="#service-table"
+                                >Web Development</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#service-table"
+                                >UI/UX Design</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#service-table"
+                                >Graphics Design</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#service-table"
+                                >Digital Marketing</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="nav-col">
+                    <p class="footer__heading">Company</p>
+                    <ul class="footer__nav">
+                        <li>
+                            <a class="footer__link" href="./about.html"
+                                >About Us</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer__link" href="./blog.html"
+                                >Our Blog</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">Press Media</a>
+                        </li>
+                        <li><a class="footer__link" href="#">Careers</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="nav-col">
+                    <p class="footer__heading">Resources</p>
+                    <ul class="footer__nav">
+                        <li>
+                            <a class="footer__link" href="#">Newsletter</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">Privacy & Terms</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <script defer src="../js/script.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>
