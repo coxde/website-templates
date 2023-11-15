@@ -231,6 +231,35 @@ body {
     color: #555;
 }
 
+.link,
+.link:link,
+.link:visited {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #1864ab;
+    text-decoration: none;
+
+    transition: all 0.3s;
+}
+
+.link:active,
+.link:hover {
+    color: #0a2844;
+}
+
+.link--box,
+.link--box:link,
+.link--box:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link--box:active,
+.link--box:hover {
+    color: inherit;
+}
+
 *:focus {
     outline: none;
     box-shadow: 0 0 0 0.4rem #a3c1dd;
