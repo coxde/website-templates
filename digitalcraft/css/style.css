@@ -579,7 +579,6 @@
 }
 
 .service__table tbody tr:hover {
-    /* font-weight: bold; */
     color: #1864ab;
 }
 
