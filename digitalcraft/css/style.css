@@ -89,11 +89,9 @@
 }
 
 /* Fix sticky nav spacing bug */
-.sticky .section-hero {
-    margin-top: 8rem;
-}
-
-.sticky .section-service-title {
+.sticky .section-hero,
+.sticky .section-service-title,
+.sticky .section-blog-title {
     margin-top: 8rem;
 }
 
@@ -518,11 +516,6 @@
     padding: 12.8rem 0;
     overflow: hidden;
 }
-.section-service-table {
-    padding: 12.8rem 0;
-    background-color: #e7f5ff;
-    overflow: hidden;
-}
 
 .service__heading {
     margin-bottom: 4.8rem;
@@ -532,6 +525,11 @@
     max-width: 80rem;
     font-size: 2rem;
     line-height: 1.6;
+}
+.section-service-table {
+    padding: 12.8rem 0;
+    background-color: #e7f5ff;
+    overflow: hidden;
 }
 
 .service__table {
@@ -576,4 +574,29 @@
 
 .service__table ol {
     list-style-position: inside;
+}
+
+/****************/
+/* BLOG SECTION */
+/****************/
+
+.section-blog-title {
+    padding: 6.4rem 0 4.8rem 0;
+    overflow: hidden;
+}
+
+.blog__heading {
+    margin-bottom: 4.8rem;
+}
+
+.blog__description {
+    max-width: 80rem;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.section-blog-grid {
+    padding: 4.8rem 0 6.4rem 0;
+    /* background-color: #e7f5ff; */
+    overflow: hidden;
 }
