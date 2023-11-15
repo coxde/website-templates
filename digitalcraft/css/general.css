@@ -104,7 +104,7 @@ body {
 
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.4rem;
+    gap: 4.8rem;
 }
 
 .grid--3-cols {
@@ -275,6 +275,11 @@ body {
 
 .text--blue {
     color: #1864ab;
+}
+
+.text--blue-bold {
+    color: #1864ab;
+    font-weight: 700;
 }
 
 .text--blue-dark {

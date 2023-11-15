@@ -91,7 +91,8 @@
 /* Fix sticky nav spacing bug */
 .sticky .section-hero,
 .sticky .section-service-title,
-.sticky .section-blog-title {
+.sticky .section-blog-title,
+.sticky .section-about-title {
     margin-top: 8rem;
 }
 
@@ -195,10 +196,6 @@
     padding: 12.8rem 0;
     background-color: #e7f5ff;
     overflow: hidden;
-}
-
-.testimonial__grid {
-    gap: 4.8rem;
 }
 
 .testimonial__box {
@@ -508,10 +505,11 @@
     color: #555;
 }
 
-/*******************/
-/* SERVICE SECTION */
-/*******************/
+/****************/
+/* SERVICE PAGE */
+/****************/
 
+/* Service Title Section */
 .section-service-title {
     padding: 12.8rem 0;
     overflow: hidden;
@@ -526,6 +524,8 @@
     font-size: 2rem;
     line-height: 1.6;
 }
+
+/* Service Table Section */
 .section-service-table {
     padding: 12.8rem 0;
     background-color: #e7f5ff;
@@ -576,10 +576,11 @@
     list-style-position: inside;
 }
 
-/****************/
-/* BLOG SECTION */
-/****************/
+/*************/
+/* BLOG PAGE */
+/*************/
 
+/* Blog Title Section */
 .section-blog-title {
     padding: 6.4rem 0 4.8rem 0;
     overflow: hidden;
@@ -595,8 +596,129 @@
     line-height: 1.6;
 }
 
+/* Blog Grid Section */
 .section-blog-grid {
     padding: 4.8rem 0 6.4rem 0;
-    /* background-color: #e7f5ff; */
     overflow: hidden;
+}
+
+/**************/
+/* ABOUT PAGE */
+/**************/
+
+/* About Title Section */
+.section-about-title {
+    padding: 12.8rem 0;
+    overflow: hidden;
+    background-color: #e7f5ff;
+}
+
+.about__description {
+    max-width: 65rem;
+    padding-bottom: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+/* About Statement Section */
+.section-about-statement {
+    padding: 12.8rem 0 38.4rem 0;
+}
+
+.about__heading {
+    margin-bottom: 3.2rem;
+}
+
+.statement__title-box {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.statement__icon {
+    color: #1864ab;
+    height: 4.8rem;
+    width: 4.8rem;
+    background-color: #e7f5ff;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.statement__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.statement__text {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+/* About Team Section */
+.section-about-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 38.4rem 0 12.8rem 0;
+    background-color: #e7f5ff;
+}
+
+.team__img-box {
+    position: absolute;
+    top: -21.5%;
+    max-width: 100rem;
+    padding: 0;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.team__img {
+    width: 100%;
+}
+
+.team__heading {
+    margin-bottom: 4.8rem;
+}
+
+.team__description {
+    max-width: 80rem;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.team__box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2.4rem 4.8rem rgba(2, 10, 17, 0.1);
+    transition: all 0.5s;
+}
+
+.team__img {
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+.team__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 2.4rem 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+}
+
+.team__info-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.team__info-role {
+    font-family: 'Titillium Web', sans-serif;
 }
