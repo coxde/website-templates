@@ -1,7 +1,7 @@
 'use strict';
 
-// Sticky navigation
-const sectionHeroEl = document.querySelector('.section-hero');
+// Sticky navigation when the first section is intersected
+const sectionFirstEl = document.querySelector('main').firstElementChild;
 
 const obs = new IntersectionObserver(
     function (entries) {
@@ -23,7 +23,7 @@ const obs = new IntersectionObserver(
     },
 );
 
-obs.observe(sectionHeroEl);
+obs.observe(sectionFirstEl);
 
 // Set current year
 const yearEl = document.querySelector('.year');
