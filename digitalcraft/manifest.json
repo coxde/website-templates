@@ -1,0 +1,38 @@
+{
+    "name": "DigitalCraft Studio",
+    "short_name": "DigitalCraft",
+    "start_url": ".",
+    "display": "browser",
+    "theme_color": "#e7f5ff",
+    "background_color": "#e7f5ff",
+    "description": "At DigitalCraft Studio, we go beyond conventional web design and development. We are a team of passionate creators dedicated to crafting digital excellence. Elevate your online presence with our innovative designs, cutting-edge technology, and a commitment to precision. Join us on a journey where your ideas meet exceptional craftsmanship, and together, we'll craft a digital masterpiece tailored to your vision. Welcome to the intersection of creativity and technology – where your success is our masterpiece.",
+    "icons": [
+        {
+            "src": "img/icon/favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "16x16 32x32"
+        },
+        {
+            "src": "img/icon/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/icon/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "img/icon/icon-192-maskable.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/icon/icon-512-maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}
