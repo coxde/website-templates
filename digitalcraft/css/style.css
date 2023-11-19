@@ -92,7 +92,8 @@
 .sticky .section-hero,
 .sticky .section-service-title,
 .sticky .section-blog-title,
-.sticky .section-about-title {
+.sticky .section-about-title,
+.sticky .section-quote-title {
     margin-top: 8rem;
 }
 
@@ -721,4 +722,129 @@
 
 .team__info-role {
     font-family: 'Titillium Web', sans-serif;
+}
+
+/**************/
+/* QUOTE PAGE */
+/**************/
+
+/* Quote Title Section */
+.section-quote-title {
+    padding: 6.4rem 0;
+    overflow: hidden;
+}
+
+.quote__heading {
+    margin-bottom: 4.8rem;
+}
+
+.quote__description {
+    max-width: 80rem;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+/* Quote Calculator Section */
+.section-quote-calculator {
+    padding: 12.8rem 0;
+    background-color: #e7f5ff;
+    overflow: hidden;
+}
+
+.pricing__title-box {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.pricing__icon {
+    color: #1864ab;
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+.pricing__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.pricing__text {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.pricing__text ul {
+    list-style-position: inside;
+    margin-bottom: 3.2rem;
+}
+
+.quote-calculator {
+    display: flex;
+    flex-direction: column;
+    min-width: 40rem;
+    padding: 3.2rem;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2.4rem 4.8rem rgba(2, 10, 17, 0.1);
+}
+
+.quote-calculator__title {
+    font-size: 2.4rem;
+}
+
+.quote-calculator__form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.quote-calculator__form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.quote-calculator__form input,
+.quote-calculator__form select {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 3.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: 1px solid #e7f5ff;
+    /* background-color: #fff; */
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.quote-calculator__form input::placeholder {
+    color: #aaa;
+}
+
+.quote-calculator__form * {
+    transition: all 0.3s;
+}
+
+.quote-calculator__form *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem #a3c1dd;
+}
+
+.quote-calculator__form .btn--dark {
+    width: 100%;
+    color: #fff;
+    background-color: #1864ab;
+}
+
+.quote-calculator__form .btn--dark:hover,
+.quote-calculator__form .btn--dark:active {
+    background-color: #114678;
+}
+
+.quote-calculator__link {
+    font-size: 1.2rem !important;
 }
