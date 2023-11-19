@@ -103,14 +103,14 @@
 
 .section-hero {
     position: relative;
+    display: grid;
+    place-content: center;
     /* Remove nav height */
     min-height: calc(100vh - 8rem);
-    padding-top: 4.8rem;
 }
 
 .hero {
     max-width: 100rem;
-    margin: 0 auto;
 }
 
 .hero__text-box {
