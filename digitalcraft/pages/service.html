@@ -30,14 +30,18 @@
             <div class="header--blank"></div>
             <div class="header--container">
                 <div class="logo">
-                    <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
-                    <img
-                        class="logo__img"
-                        src="../img/logo.png"
-                        width="48px"
-                        height="48px"
-                        alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
-                    />
+                    <picture>
+                        <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                        <source srcset="../img/logo.webp" type="image/webp" />
+                        <img
+                            class="logo__img"
+                            src="../img/logo.png"
+                            width="48px"
+                            height="48px"
+                            alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                            loading="lazy"
+                        />
+                    </picture>
                     <a class="logo__text" href="../index.html">DigitalCraft</a>
                 </div>
 
@@ -243,14 +247,21 @@
             <div class="container grid grid--footer">
                 <div class="logo-col">
                     <div class="logo">
-                        <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
-                        <img
-                            class="logo__img"
-                            src="../img/logo.png"
-                            width="32px"
-                            height="32px"
-                            alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
-                        />
+                        <picture>
+                            <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                            <source
+                                srcset="../img/logo.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="logo__img"
+                                src="../img/logo.png"
+                                width="48px"
+                                height="48px"
+                                alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                                loading="lazy"
+                            />
+                        </picture>
                         <a class="logo__text" href="../index.html"
                             >DigitalCraft</a
                         >
@@ -258,7 +269,10 @@
 
                     <ul class="social-links">
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A linkedin logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-linkedin"
@@ -266,7 +280,10 @@
                             ></a>
                         </li>
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A Facebook logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-facebook"
@@ -274,7 +291,10 @@
                             ></a>
                         </li>
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A GitHub logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-github"

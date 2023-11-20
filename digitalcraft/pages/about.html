@@ -30,14 +30,18 @@
             <div class="header--blank"></div>
             <div class="header--container">
                 <div class="logo">
-                    <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
-                    <img
-                        class="logo__img"
-                        src="../img/logo.png"
-                        width="48px"
-                        height="48px"
-                        alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
-                    />
+                    <picture>
+                        <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                        <source srcset="../img/logo.webp" type="image/webp" />
+                        <img
+                            class="logo__img"
+                            src="../img/logo.png"
+                            width="48px"
+                            height="48px"
+                            alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                            loading="lazy"
+                        />
+                    </picture>
                     <a class="logo__text" href="../index.html">DigitalCraft</a>
                 </div>
 
@@ -158,12 +162,16 @@
 
             <section class="section-about-team">
                 <div class="team__img-box">
-                    <!-- Credit: https://unsplash.com/photos/three-people-sitting-in-front-of-table-laughing-together-g1Kr4Ozfoac -->
-                    <img
-                        class="team__img"
-                        src="../img/about.jpg"
-                        alt="Three staffs of our studio sitting in front of a table, working and laughing, serving as the main image of the about page."
-                    />
+                    <picture>
+                        <!-- Credit: https://unsplash.com/photos/three-people-sitting-in-front-of-table-laughing-together-g1Kr4Ozfoac -->
+                        <source srcset="../img/about.webp" type="image/webp" />
+                        <img
+                            class="team__img"
+                            src="../img/about.jpg"
+                            alt="Three staffs of our studio sitting in front of a table, working and laughing, serving as the main image of the about page."
+                            loading="lazy"
+                        />
+                    </picture>
                 </div>
 
                 <div class="container">
@@ -186,12 +194,19 @@
                     class="container grid team__grid grid--3-cols grid--center-v"
                 >
                     <div class="team__box">
-                        <!-- Credit: https://unsplash.com/photos/woman-smiling-and-sitting-PlikkWB79qs -->
-                        <img
-                            class="team__img"
-                            src="../img/staff/vanessa.jpg"
-                            alt="A photo of our stuff Vanessa Carter"
-                        />
+                        <picture>
+                            <!-- Credit: https://unsplash.com/photos/woman-smiling-and-sitting-PlikkWB79qs -->
+                            <source
+                                srcset="../img/staff/vanessa.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="team__img"
+                                src="../img/staff/vanessa.jpg"
+                                alt="A photo of our stuff Vanessa Carter"
+                                loading="lazy"
+                            />
+                        </picture>
 
                         <div class="team__info text--center">
                             <div class="team__info-name">Vanessa Carter</div>
@@ -202,12 +217,19 @@
                     </div>
 
                     <div class="team__box">
-                        <!-- Credit: https://unsplash.com/photos/mens-gray-jacket-s0r_Za9325w -->
-                        <img
-                            class="team__img"
-                            src="../img/staff/liam.jpg"
-                            alt="A photo of our stuff Liam Anderson"
-                        />
+                        <picture>
+                            <!-- Credit: https://unsplash.com/photos/mens-gray-jacket-s0r_Za9325w -->
+                            <source
+                                srcset="../img/staff/liam.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="team__img"
+                                src="../img/staff/liam.jpg"
+                                alt="A photo of our stuff Liam Anderson"
+                                loading="lazy"
+                            />
+                        </picture>
 
                         <div class="team__info text--center">
                             <div class="team__info-name">Liam Anderson</div>
@@ -218,12 +240,19 @@
                     </div>
 
                     <div class="team__box">
-                        <!-- Credit: https://unsplash.com/photos/woman-sitting-next-to-window-Zpzf7TLj_gA -->
-                        <img
-                            class="team__img"
-                            src="../img/staff/sophia.jpg"
-                            alt="A photo of our stuff Sophia Martinez"
-                        />
+                        <picture>
+                            <!-- Credit: https://unsplash.com/photos/woman-sitting-next-to-window-Zpzf7TLj_gA -->
+                            <source
+                                srcset="../img/staff/sophia.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="team__img"
+                                src="../img/staff/sophia.jpg"
+                                alt="A photo of our stuff Sophia Martinez"
+                                loading="lazy"
+                            />
+                        </picture>
 
                         <div class="team__info text--center">
                             <div class="team__info-name">Sophia Martinez</div>
@@ -297,14 +326,21 @@
             <div class="container grid grid--footer">
                 <div class="logo-col">
                     <div class="logo">
-                        <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
-                        <img
-                            class="logo__img"
-                            src="../img/logo.png"
-                            width="32px"
-                            height="32px"
-                            alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
-                        />
+                        <picture>
+                            <!-- Credit: https://www.flaticon.com/free-icon/layer_10169782 -->
+                            <source
+                                srcset="../img/logo.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                class="logo__img"
+                                src="../img/logo.png"
+                                width="48px"
+                                height="48px"
+                                alt="The logo of DigitalCraft. A circle code block shape on the stack shape thing."
+                                loading="lazy"
+                            />
+                        </picture>
                         <a class="logo__text" href="../index.html"
                             >DigitalCraft</a
                         >
@@ -312,7 +348,10 @@
 
                     <ul class="social-links">
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A linkedin logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-linkedin"
@@ -320,7 +359,10 @@
                             ></a>
                         </li>
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A Facebook logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-facebook"
@@ -328,7 +370,10 @@
                             ></a>
                         </li>
                         <li>
-                            <a class="footer__link" href="#"
+                            <a
+                                class="footer__link"
+                                href="#"
+                                aria-label="A GitHub logo"
                                 ><ion-icon
                                     class="social-icon"
                                     name="logo-github"
