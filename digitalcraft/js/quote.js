@@ -51,9 +51,11 @@ const quoteCal = function () {
                 currencySymbol = 'GBP';
             }
 
-            const totalCost = `The overall project cost is ${
-                hourlyRate * totalHours * rateInput
-            } ${currencySymbol}.`;
+            const totalCost = `The overall project cost is ${(
+                hourlyRate *
+                totalHours *
+                rateInput
+            ).toFixed(2)} ${currencySymbol}.`;
             console.log(totalCost);
 
             window.alert(totalCost);
